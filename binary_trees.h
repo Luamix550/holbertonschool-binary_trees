@@ -19,7 +19,16 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
+/* binary search tree */
+typedef struct binary_tree_s bst_t;
 
+/* avl tree */
+typedef struct binary_tree_s avl_t;
+
+/* max binary heap */
+typedef struct binary_tree_s heap_t;
+
+#define MAX(a, b) (a > b ? a : b)
 
 /*libraries*/
 
