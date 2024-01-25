@@ -1,7 +1,7 @@
 #ifndef _BINARY_TREES_H_
 #define _BINARY_TREES_H_
 
-#include <stddef.h>
+
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -34,6 +34,7 @@ typedef struct binary_tree_s heap_t;
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 /*Prototypes*/
 void binary_tree_print(const binary_tree_t *);
