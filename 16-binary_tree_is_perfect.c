@@ -22,6 +22,6 @@ int isPerfect(const binary_tree_t *tree, int expectedDepth)
     if (!tree->left != !tree->right)
         return 0;
     return expectedDepth >= 0 &&
-        isPerfect(tree->left, expectedDepth - 1l) &&
+        isPerfect(tree->left, expectedDepth - 1) &&
         isPerfect(tree->right, expectedDepth - 1);
 }
