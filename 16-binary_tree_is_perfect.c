@@ -9,7 +9,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 int find_depth_left(const binary_tree_t *tree)
 {
-    return !tree ? 0 : 1 + find_depth_left(tree->left);
+    if(!tree)
+    return (0);
+    
+    return (1 + find_depth_left(tree->left));
 }
 
 int isPerfect(const binary_tree_t *tree, int expectedDepth)
